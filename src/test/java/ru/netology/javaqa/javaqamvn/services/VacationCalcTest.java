@@ -14,7 +14,7 @@ public class VacationCalcTest {
 
         VacationCalc service = new VacationCalc();
 
-        int actual = service.calculateVacationMonths(income, expenses, threshold);
+        int actual = service.calculate(income, expenses, threshold);
 
         Assertions.assertEquals(expected, actual);
     }
